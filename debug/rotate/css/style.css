@@ -119,7 +119,7 @@
     margin-bottom: 2px;
     color: #000;
     background-color: #eee; 
-    min-width: 340px;
+    min-width: 326px;
     border-radius: 2px;
     border: 1px solid #ddd;
   }
@@ -183,7 +183,7 @@
     width: 77%;
     height: 480px;
     border: solid 1px #ccc;
-    min-width: 171px;
+    min-width: 163px;
 /*    max-height: 603px;*/
   }
 
