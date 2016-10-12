@@ -79,7 +79,7 @@
   }
 
   #bootstrap-overrides .dropdown.open .dropdown-menu {
-    max-height: 199px;
+    max-height: 209px;
     opacity: 1;
     overflow:scroll;
     margin-bottom: 3px;
@@ -181,7 +181,7 @@
   #map {
     margin-top: 0px;
     width: 77%;
-    height: 470px;
+    height: 480px;
     border: solid 1px #ccc;
     min-width: 174px;
 /*    max-height: 603px;*/
