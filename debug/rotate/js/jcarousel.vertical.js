@@ -1,6 +1,6 @@
 (function($) {
     $(function() {
-        $('.jcarousel')
+        $('#jc1')
             .jcarousel({
                 vertical: true
             });
@@ -32,7 +32,7 @@
             // });
 
 
-        $('.jcarousel-control-prev')
+        $('#pre1')
             .on('jcarouselcontrol:active', function() {
                 $(this).removeClass('inactive');
             })
@@ -43,7 +43,7 @@
                 target: '-=3'
             });
 
-        $('.jcarousel-control-next')
+        $('#nex1')
             .on('jcarouselcontrol:active', function() {
                 $(this).removeClass('inactive');
             })

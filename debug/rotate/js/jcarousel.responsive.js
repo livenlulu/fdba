@@ -1,6 +1,6 @@
 (function($) {
     $(function() {
-        var jcarousel = $('.jcarousel');
+        var jcarousel = $('#jc22');
 
         jcarousel
             .on('jcarousel:reload jcarousel:create', function () {
@@ -29,17 +29,17 @@
                 wrap: 'circular'
             });
 
-        $('.jcarousel-control-prev')
+        $('#pre2')
             .jcarouselControl({
                 target: '-=4'
             });
 
-        $('.jcarousel-control-next')
+        $('#nex2')
             .jcarouselControl({
                 target: '+=4'
             });
 
-        $('.jcarousel-pagination')
+        $('#pag2')
             .on('jcarouselpagination:active', 'a', function() {
                 $(this).addClass('active');
             })

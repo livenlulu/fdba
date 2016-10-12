@@ -466,6 +466,19 @@ $(document).ready(function () {
   
 };
 
+  if ($(window).width() > 500) {
+    $("#caro").hide()
+};
+
+  if ($(window).width() <= 500) {
+    $("#ver").hide();
+    $(".btn").width(148);
+    $(".dropdown-menu").width(152);
+    $("#caro").show()
+};
+
+
+
 
 //avoidclick
 $("#map").on('click', function(f) {

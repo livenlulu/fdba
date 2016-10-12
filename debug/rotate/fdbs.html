@@ -18,6 +18,7 @@
  	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="css/jcarousel.vertical.css">
+    <link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css">
     <link rel="stylesheet" type="text/css" href="css/hover.css">
 
     
@@ -171,10 +172,9 @@
 		<div class="col-md-2 col-xs-2" id="ver">
 		
 	         
-	            <div class="jcarousel-wrapper" style="height: 479px">
-	                <div class="jcarousel">
+	            <div class="jcarousel-wrapper" id="jc11" style="height: 479px">
+	                <div class="jcarousel" id="jc1">
 	                    <ul id="imga">
-
 
 				                        <li class="hovereffect">
 			                        		<img id="113" src="img2/113.jpg">
@@ -261,27 +261,15 @@
 										           <h1>Bebenoir</h1>
 										        </div>
 									    </li>	                    
-<!-- 	                        <li><img id="39" src="img2/39.jpg" width="600" height="400" alt=""></li>
-	                        <li><img id="49" src="img2/49.jpg" width="600" height="400" alt=""></li>
-	                        <li><img id="53" src="img2/53.jpg" width="600" height="400" alt=""></li>
-	                        <li><img id="56" src="img2/56.jpg" width="600" height="400" alt=""></li>
-	                        <li><img id="63" src="img2/63.jpg" width="600" height="400" alt=""></li>
-	                        <li><img src="img2/70.jpg" width="600" height="400" alt=""></li>
-	                        <li><img src="img2/80.jpg" width="600" height="400" alt=""></li>
-	                        <li><img src="img2/95.jpg" width="600" height="400" alt=""></li>
-	                        <li><img src="img2/98.jpg" width="600" height="400" alt=""></li>
-	                        <li><img src="img2/113.jpg" width="600" height="400" alt=""></li>
-	                        <li><img src="img2/125.jpg" width="600" height="400" alt=""></li>
-	                        <li><img src="img2/129.jpg" width="600" height="400" alt=""></li> -->
 
 	                    </ul>
 	                </div>
 
 
-	                <a href="#" class="jcarousel-control-prev"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
-	                <a href="#" class="jcarousel-control-next"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+	                <a href="#" class="jcarousel-control-prev" id="pre1"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a>
+	                <a href="#" class="jcarousel-control-next" id="nex1"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
 	                
-	               <!--  <p class="jcarousel-pagination"> -->
+	        
 	                    
 	                </p>
 	            </div>
@@ -293,12 +281,12 @@
 
 
 
-<!-- 
+
 		<div class="col-md-12 col-xs-12" id="caro" style="padding-left: 0px; padding-right: 0px;">
 
 			<div class="wrapper" style="margin-left: 0px; margin-right:0px;">
-				<div class="jcarousel-wrapper">
-		                <div class="jcarousel">
+				<div class="jcarousel-wrapper" id="jc2">
+		                <div class="jcarousel" id="jc22">
 		           
 				            <ul id="imga">
 				            	
@@ -392,14 +380,14 @@
 		                	
 		                </div>
 
-		                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-		                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+		                <a href="#" class="jcarousel-control-prev" id="pre2">&lsaquo;</a>
+		                <a href="#" class="jcarousel-control-next" id="nex2">&rsaquo;</a>
 
-		                <p class="jcarousel-pagination"></p>
+		                <p class="jcarousel-pagination" id="pag2"></p>
 		        </div>
 		    </div>
 		
-		</div> -->
+		</div>
 	
  	</center>
 
@@ -418,6 +406,7 @@
 	<script type="text/javascript" src="js/jcaro.jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 	<script type="text/javascript" src="js/jcarousel.vertical.js"></script>
+	<script type="text/javascript" src="js/jcarousel.responsive.js"></script>
     
     <script type="text/javascript" src="../../build/deps.js"></script>
 	<script src="../leaflet-include.js"></script>
