@@ -183,7 +183,7 @@
     width: 77%;
     height: 480px;
     border: solid 1px #ccc;
-    min-width: 175px;
+    min-width: 173px;
 /*    max-height: 603px;*/
   }
 
@@ -588,5 +588,5 @@ font-size: 15px;
 
 #rside {
   width: 22.5%;
-  min-width: 12px;
+  min-width: 120px;
 }
