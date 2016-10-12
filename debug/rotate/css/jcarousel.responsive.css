@@ -1,4 +1,4 @@
-.jcarousel-wrapper {
+#jc2 {
     margin: 5px auto;
     position: relative;
     border: 2px solid #fff;
@@ -12,14 +12,14 @@
 
 /** Carousel **/
 
-.jcarousel {
+#jc22 {
     position: relative;
     overflow: hidden;
     width: 100%;
     height: 80px;
 }
 
-.jcarousel ul {
+#jc22 ul {
     width: 20000em;
     position: relative;
     list-style: none;
@@ -27,7 +27,7 @@
     padding: 0;
 }
 
-.jcarousel li {
+ #jc22 li {
     width: 180px;
     float: left;
     border: 1px solid #fff;
@@ -38,7 +38,7 @@
     text-align: middle;
 }
 
-.jcarousel img {
+ #jc22 img {
     display: block;
     max-width: 100%;
     height: auto !important;
@@ -48,8 +48,8 @@
 
 /** Carousel Controls **/
 
-.jcarousel-control-prev,
-.jcarousel-control-next {
+ #pre2,
+ #nex2 {
     position: absolute;
     top: 50%;
     margin-top: -15px;
@@ -70,8 +70,8 @@
     opacity: 0.8;
 }
 
-.jcarousel-control-prev:hover, 
-.jcarousel-control-next:hover {
+#pre2:hover, 
+#nex2:hover {
     color:white;
     background-color: black;
     opacity: 0.8;
@@ -79,8 +79,8 @@
 
 }
 
-.jcarousel-control-prev:focus,
-.jcarousel-control-next:focus {
+#pre2:focus,
+#nex2:focus {
     color:white;
     background-color: black;
     opacity: 0.6;
@@ -88,17 +88,17 @@
 }
 
 
-.jcarousel-control-prev {
+#pre2 {
     left: 15px;
 }
 
-.jcarousel-control-next {
+#nex2 {
     right: 15px;
 }
 
 /** Carousel Pagination **/
 
-.jcarousel-pagination {
+#pag2 {
     position: absolute;
     bottom: -40px;
     left: 50%;
@@ -108,7 +108,7 @@
     margin: 0;
 }
 
-.jcarousel-pagination a {
+#pag2 a {
     text-decoration: none;
     display: inline-block;
 
@@ -130,7 +130,7 @@
     box-shadow: 0 0 2px #4E443C;
 }
 
-.jcarousel-pagination a.active {
+#pag2 a.active {
     background: #4E443C;
     color: #fff;
     opacity: 1;

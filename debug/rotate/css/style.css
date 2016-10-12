@@ -560,7 +560,7 @@ font-size: 15px;
 }
 
 
-#bootstrap-overrides #imga {
+#bootstrap-overrides #imga2 {
   height: 100px;
 }
 
@@ -588,5 +588,5 @@ font-size: 15px;
 
 #rside {
   width: 22.5%;
-  min-width: 115px;
+  min-width: 12px;
 }
