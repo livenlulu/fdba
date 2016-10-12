@@ -9,8 +9,8 @@
 
   if ($(window).width() <= 500) {
     $("#ver").hide();
-    $(".btn").width(146);
-    $(".dropdown-menu").width(150);
+    $(".btn").width(143);
+    $(".dropdown-menu").width(147);
  
 };
 
