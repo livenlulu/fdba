@@ -7,17 +7,7 @@
                 var carousel = $(this),
                     width = carousel.innerWidth();
 
-                if (width >= 1200) {
-                    width = width / 8;
-                } else if (width >= 820) {
-                    width = width / 7;
-                } else if (width >= 750) {
-                    width = width / 6;
-                } else if (width >= 570) {
-                    width = width / 5;
-                } else if (width >= 450) {
-                    width = width / 4;
-                } else if (width >= 300) {
+             if (width >= 300) {
                     width = width / 3;
                 } else if (width >= 200) {
                     width = width / 2;
