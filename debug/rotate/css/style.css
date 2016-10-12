@@ -108,8 +108,8 @@
     font-size: 18px;
     font-family: Maven Pro;
     font-weight: 900;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 8px;
+    margin-bottom: 5px;
   }
 
   #bootstrap-overrides .jumbotron {
@@ -129,9 +129,9 @@
     float: right;
     min-width: 0px;
     min-height: 0px;
-    height: 83px;
+    height: 90px;
     display: inline;
-    top: 6px;
+    top: 12px;
     right: 14%;
     position: absolute;
     border: 1px solid #ddd;
