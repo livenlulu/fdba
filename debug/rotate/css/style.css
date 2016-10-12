@@ -291,7 +291,7 @@
 /*  padding: 10px;*/
   font-family: Maven Pro;
   font-weight: 700;
-  min-width: 80px;
+  min-width: 120px;
   font-size: 11px;
   height: 32px;
 }
@@ -588,4 +588,5 @@ font-size: 15px;
 
 #rside {
   width: 22.5%;
+  min-width: 140px;
 }
