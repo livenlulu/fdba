@@ -619,6 +619,12 @@ font-size: 18px;
   display: none;
 }
 
+body {
+  left:0px;
+  padding: 0px;
+  margin:0px;
+}
+
 #rside {
   width: 38%;
   min-width: 180px;
