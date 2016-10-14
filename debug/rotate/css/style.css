@@ -79,7 +79,7 @@
   }
 
   #bootstrap-overrides .dropdown.open .dropdown-menu {
-    max-height: 209px;
+    max-height: 230px;
     opacity: 1;
     overflow:scroll;
     margin-bottom: 3px;
@@ -105,7 +105,7 @@
   }
  
   #bootstrap-overrides h2 {
-    font-size: 18px;
+  
     font-family: Maven Pro;
     font-weight: 900;
     margin-top: 8px;
@@ -119,7 +119,7 @@
     margin-bottom: 2px;
     color: #000;
     background-color: #eee; 
-    min-width: 326px;
+    min-width: 358px;
     border-radius: 2px;
     border: 1px solid #ddd;
   }
@@ -180,10 +180,10 @@
 
   #map {
     margin-top: 0px;
-    width: 77%;
-    height: 480px;
+    width: 78%;
+    height: 501px;
     border: solid 1px #ccc;
-    min-width: 163px;
+    min-width: 179px;
 /*    max-height: 603px;*/
   }
 
@@ -291,7 +291,7 @@
 /*  padding: 10px;*/
   font-family: Maven Pro;
   font-weight: 700;
-  min-width: 116px;
+  min-width: 113px;
   font-size: 11px;
   height: 32px;
 }
@@ -582,11 +582,52 @@ font-size: 15px;
 #bootstrap-overrides #ver {
   padding-left: 0px;
   padding-right: 0px;
-  height: 475px;
+  height: 501px;
   width: 15%;
 }
 
 #rside {
   width: 22.5%;
-  min-width: 116px;
+ 
+}
+
+#headin2 {
+text-align:left;
+font-size: 18px;
+}
+
+#headin3 {
+  margin-top:10px; 
+  margin-right: 0px; 
+  padding-bottom:6px; 
+  margin-left: 96px;
+}
+
+
+@media screen and (max-width: 700px) {
+#bootstrap-overrides #flogo2 {
+  display:none;
+}
+}
+
+
+@media screen and (max-width: 520px) {
+#bootstrap-overrides #ver {
+  display: none;
+}
+
+#rside {
+  width: 38%;
+  min-width: 180px;
+
+}
+
+#headin2 {
+  font-size: 18px;
+}
+
+#headin3 {
+  margin-left: 40px;
+}
+
 }
