@@ -603,6 +603,9 @@ font-size: 18px;
   margin-left: 96px;
 }
 
+#sp {
+  height: 30px;
+}
 
 @media screen and (max-width: 665px) {
 #bootstrap-overrides #flogo2 {
