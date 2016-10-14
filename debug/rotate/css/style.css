@@ -119,7 +119,7 @@
     margin-bottom: 2px;
     color: #000;
     background-color: #eee; 
-    min-width: 354px;
+    min-width: 314px;
     border-radius: 2px;
     border: 1px solid #ddd;
   }
@@ -183,7 +183,7 @@
     width: 78%;
     height: 501px;
     border: solid 1px #ccc;
-    min-width: 177px;
+    min-width: 157px;
 /*    max-height: 603px;*/
   }
 
@@ -621,7 +621,7 @@ font-size: 18px;
 
 #rside {
   width: 38%; 
-  min-width: 178px;
+  min-width: 158px;
 }
 
 #headin2 {
