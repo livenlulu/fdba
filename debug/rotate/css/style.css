@@ -120,7 +120,13 @@
     color: #000;
     background-color: #eee; 
 <<<<<<< HEAD
+<<<<<<< HEAD
     min-width: 354px;
+=======
+
+    min-width: 354px;
+
+>>>>>>> gh-pages
 =======
 
     min-width: 354px;
@@ -190,7 +196,13 @@
     height: 501px;
     border: solid 1px #ccc;
 <<<<<<< HEAD
+<<<<<<< HEAD
     min-width: 177px;
+=======
+
+    min-width: 177px;
+
+>>>>>>> gh-pages
 =======
 
     min-width: 177px;
@@ -633,8 +645,14 @@ font-size: 18px;
 
 #rside {
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 38%;
   min-width: 178px;
+=======
+  width: 38%; 
+  min-width: 178px;
+
+>>>>>>> gh-pages
 =======
   width: 38%; 
   min-width: 178px;
