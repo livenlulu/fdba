@@ -119,11 +119,9 @@
     margin-bottom: 2px;
     color: #000;
     background-color: #eee; 
-<<<<<<< HEAD
-    min-width: 338px;
-=======
+
     min-width: 354px;
->>>>>>> master
+
     border-radius: 2px;
     border: 1px solid #ddd;
   }
@@ -187,11 +185,9 @@
     width: 78%;
     height: 501px;
     border: solid 1px #ccc;
-<<<<<<< HEAD
-    min-width: 169px;
-=======
+
     min-width: 177px;
->>>>>>> master
+
 /*    max-height: 603px;*/
   }
 
@@ -628,12 +624,9 @@ font-size: 18px;
 }
 
 #rside {
-  width: 38%;
-<<<<<<< HEAD
-  min-width: 170px;
-=======
+  width: 38%; 
   min-width: 178px;
->>>>>>> master
+
 
 }
 
