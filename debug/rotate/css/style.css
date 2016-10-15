@@ -662,15 +662,16 @@ font-size: 18px;
   min-width: 204px;
 }
 
-/*
+
 #rside {
   width: 40%; 
 
-}*/
+}
 
 #bootstrap-overrides #rsidein{
-  width: 31%;
-    min-width: 124px;
+  width: 78%;
+  min-width: 120px;
+  float: left;
 }
 
 
