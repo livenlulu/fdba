@@ -628,6 +628,7 @@ font-size: 18px;
 
 #midd {
   width: 100%;
+  text-align: -webkit-center;
 }
 
 @media screen and (max-width: 645px) {
@@ -643,9 +644,7 @@ font-size: 18px;
 }
 
 #bootstrap-overrides #bor {
-  max-width: 9%;
-  height: 100px;
-  min-width: 1px;
+display:none;
 
 }
 
@@ -656,18 +655,22 @@ font-size: 18px;
 }
 
 #bootstrap-overrides #le1{
-  width: 51%;
-  min-width:204px;
+  width: 60%;
+/*  min-width:204px;*/
 
 }
 
 
 #rside {
-  width: 31%; 
-  min-width: 124px;
+  width: 40%; 
+/*  min-width: 124px;*/
 
 }
 
+#cen {
+  margin: 0 auto;
+  width: 82%
+}
 
 
 #headin2 {
