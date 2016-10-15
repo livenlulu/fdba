@@ -640,9 +640,9 @@ font-size: 18px;
 }
 
 #bootstrap-overrides #bor {
-  width: 9%;
+  max-width: 9%;
   height: 100px;
-  min-width: 36px;
+  min-width: 1px;
 }
 
 
