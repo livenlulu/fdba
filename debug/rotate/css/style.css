@@ -636,10 +636,6 @@ font-size: 18px;
 }
 
 
-#bootstrap-overrides .col-xs-6 {
-  width: 63%;
-
-}
 
 #bootstrap-overrides #le1{
   width: 51%;
@@ -659,7 +655,7 @@ font-size: 18px;
 }
 
 #headin3 {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 #bootstrap-overrides #caro {
