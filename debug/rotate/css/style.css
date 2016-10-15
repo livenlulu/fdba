@@ -626,10 +626,14 @@ font-size: 18px;
   height: 15px;
 }
 
-#midd {
-  width: 100%;
+
+#cen {
+  margin: 0 auto;
+  min-width: 328px;
   text-align: -webkit-center;
+  width: 100%;
 }
+
 
 @media screen and (max-width: 645px) {
 #bootstrap-overrides #flogo2 {
@@ -644,7 +648,9 @@ font-size: 18px;
 }
 
 #bootstrap-overrides #bor {
-display:none;
+/*  width: 9%;*/
+/*  min-width: 11px;*/
+  display: none;
 
 }
 
@@ -669,9 +675,16 @@ display:none;
 
 #cen {
   margin: 0 auto;
-  width: 82%
+  width: 100%;
+
 }
 
+#midd {
+    min-width: 328px;
+    margin: 0 auto;
+    text-align: center;
+    width: 82%;
+}
 
 #headin2 {
   font-size: 18px;
