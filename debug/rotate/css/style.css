@@ -300,7 +300,7 @@
 /*  padding: 10px;*/
   font-family: Maven Pro;
   font-weight: 700;
-  min-width: 113px;
+ /* min-width: 113px;*/
   font-size: 11px;
   height: 32px;
 }
