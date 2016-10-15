@@ -659,12 +659,12 @@ font-size: 18px;
 
 #bootstrap-overrides #map {
   width: 85%;
-  min-width: 204px;
+  min-width: 200px;
 }
 
 
 #rside {
-  width: 40%; 
+  width: 43%; 
 
 }
 
@@ -686,6 +686,10 @@ font-size: 18px;
 #bootstrap-overrides #caro {
   display: inline;
   width: 100%;
+  min-width: 328px;
+}
+
+#bootstrap-overrides .wrapper {
   min-width: 328px;
 }
 
