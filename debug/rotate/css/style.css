@@ -670,7 +670,7 @@ font-size: 18px;
 
 #bootstrap-overrides #rsidein{
   width: 78%;
-  min-width: 122px;
+  min-width: 124px;
   float: left;
 }
 
@@ -692,6 +692,9 @@ font-size: 18px;
 #bootstrap-overrides .wrapper {
   min-width: 328px;
 }
+
+#bootstrap-overrides #info {
+  margin-right: 25%;
 
 }
 
