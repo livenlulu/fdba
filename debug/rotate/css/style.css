@@ -30,7 +30,7 @@
 
   #bootstrap-overrides #bor {
     width: 12.5%;
-    height:400px;
+    height:500px;
   }
 
 
@@ -691,7 +691,7 @@ font-size: 18px;
 }
 
 #headin3 {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 #bootstrap-overrides #caro {
@@ -705,7 +705,7 @@ font-size: 18px;
 }
 
 #bootstrap-overrides #info {
-  margin-right: 25%;
+  margin-right: 5%;
 
 }
 
