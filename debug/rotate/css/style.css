@@ -640,27 +640,39 @@ font-size: 18px;
 }
 
 #bootstrap-overrides #bor {
-  max-width: 9%;
+/*  max-width: 9%;
   height: 100px;
-  min-width: 1px;
+  min-width: 1px;*/
+  display: none;
 }
 
-
-
-#bootstrap-overrides #le1{
-  width: 51%;
-  min-width: 204px;
-}
 
 #bootstrap-overrides .jumbotron {
   width:82%;
   min-width: 328px;
 }
 
-#rside {
-  width: 31%; 
-  min-width: 124px;
+#bootstrap-overrides #le1{
+  width: 60%;
+
 }
+
+#bootstrap-overrides #map {
+  width: 85%;
+  min-width: 204px;
+}
+
+/*
+#rside {
+  width: 40%; 
+
+}*/
+
+#bootstrap-overrides #rsidein{
+  width: 31%;
+    min-width: 124px;
+}
+
 
 #headin2 {
   font-size: 18px;
