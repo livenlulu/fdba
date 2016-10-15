@@ -656,14 +656,14 @@ display:none;
 
 #bootstrap-overrides #le1{
   width: 60%;
-/*  min-width:204px;*/
+  min-width:196.8px;
 
 }
 
 
 #rside {
   width: 40%; 
-/*  min-width: 124px;*/
+  min-width: 131.2px;
 
 }
 
