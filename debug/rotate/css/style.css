@@ -33,6 +33,10 @@
     height:500px;
   }
 
+  #bootstrap-overrides #bor2 {
+    width: 12.5%;
+    height:500px;
+  }
 
   #bootstrap-overrides h6 {
     font-size: 10px;
@@ -654,6 +658,11 @@ font-size: 18px;
 
 }
 
+
+#bootstrap-overrides #bor2 {
+  display: none;
+
+}
 
 #bootstrap-overrides .jumbotron {
   width:82%;

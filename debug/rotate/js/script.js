@@ -543,6 +543,10 @@ $(".erimgMain_arrowRight").click(function(e) {
  e.stopPropagation();
 });
 
+ $("#bor2").click(function(e) {
+ e.stopPropagation();
+});
+
 
 
 // var dir = "img2/";
