@@ -609,6 +609,7 @@ font-size: 18px;
 
 #ri {
   width: 12.5%;
+  height:400px;
 }
 
 @media screen and (max-width: 645px) {
