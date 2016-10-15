@@ -651,7 +651,8 @@ font-size: 18px;
 }
 
 #bootstrap-overrides .jumbotron {
-  width: 82%;
+  width:82%;
+  min-width: 328px;
 }
 
 #rside {
