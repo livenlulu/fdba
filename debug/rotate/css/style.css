@@ -648,6 +648,7 @@ font-size: 18px;
 
 #bootstrap-overrides #le1{
   width: 51%;
+  min-width: 204px;
 }
 
 #bootstrap-overrides .jumbotron {
@@ -657,7 +658,7 @@ font-size: 18px;
 
 #rside {
   width: 31%; 
-  /*min-width: 158px;*/
+  min-width: 124px;
 }
 
 #headin2 {
@@ -671,6 +672,7 @@ font-size: 18px;
 #bootstrap-overrides #caro {
   display: inline;
   width: 100%;
+  min-width: 328px;
 }
 
 }
